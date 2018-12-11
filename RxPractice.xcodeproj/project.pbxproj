@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3D670C538DAEFC343229999A /* Pods_RxPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828504106732FA721BCCF03A /* Pods_RxPracticeTests.framework */; };
 		3F6E48FB21BFAFB300BD5270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E48FA21BFAFB300BD5270 /* AppDelegate.swift */; };
-		3F6E48FD21BFAFB300BD5270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E48FC21BFAFB300BD5270 /* ViewController.swift */; };
-		3F6E490021BFAFB300BD5270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E48FE21BFAFB300BD5270 /* Main.storyboard */; };
 		3F6E490321BFAFB300BD5270 /* RxPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E490121BFAFB300BD5270 /* RxPractice.xcdatamodeld */; };
 		3F6E490521BFAFB400BD5270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E490421BFAFB400BD5270 /* Assets.xcassets */; };
 		3F6E490821BFAFB400BD5270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E490621BFAFB400BD5270 /* LaunchScreen.storyboard */; };
 		3F6E491321BFAFB400BD5270 /* RxPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E491221BFAFB400BD5270 /* RxPracticeTests.swift */; };
 		3F6E491E21BFAFB400BD5270 /* RxPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E491D21BFAFB400BD5270 /* RxPracticeUITests.swift */; };
+		3F6E492E21BFB22200BD5270 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E492D21BFB22200BD5270 /* NumberViewController.swift */; };
+		3F6E493121BFB27900BD5270 /* Number.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E493021BFB27900BD5270 /* Number.storyboard */; };
 		56DE229B6934F52C0ED50C2E /* Pods_RxPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FD34F89DE3DCC5983DC589 /* Pods_RxPractice.framework */; };
 		DA41255D52039B7DAF92AE83 /* Pods_RxPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F0AE084B9BE0950D94CBDE /* Pods_RxPracticeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -44,8 +44,6 @@
 		3610D427BCE99FE90B96D28C /* Pods-RxPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPracticeUITests/Pods-RxPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F6E48F721BFAFB300BD5270 /* RxPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6E48FA21BFAFB300BD5270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F6E48FC21BFAFB300BD5270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F6E48FF21BFAFB300BD5270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6E490221BFAFB300BD5270 /* RxPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxPractice.xcdatamodel; sourceTree = "<group>"; };
 		3F6E490421BFAFB400BD5270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6E490721BFAFB400BD5270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		3F6E491921BFAFB400BD5270 /* RxPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6E491D21BFAFB400BD5270 /* RxPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPracticeUITests.swift; sourceTree = "<group>"; };
 		3F6E491F21BFAFB400BD5270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6E492D21BFB22200BD5270 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		3F6E493021BFB27900BD5270 /* Number.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Number.storyboard; sourceTree = "<group>"; };
 		64FD34F89DE3DCC5983DC589 /* Pods_RxPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F0AE084B9BE0950D94CBDE /* Pods_RxPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		828504106732FA721BCCF03A /* Pods_RxPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,9 +126,8 @@
 		3F6E48F921BFAFB300BD5270 /* RxPractice */ = {
 			isa = PBXGroup;
 			children = (
+				3F6E492B21BFB1BD00BD5270 /* Practice */,
 				3F6E48FA21BFAFB300BD5270 /* AppDelegate.swift */,
-				3F6E48FC21BFAFB300BD5270 /* ViewController.swift */,
-				3F6E48FE21BFAFB300BD5270 /* Main.storyboard */,
 				3F6E490421BFAFB400BD5270 /* Assets.xcassets */,
 				3F6E490621BFAFB400BD5270 /* LaunchScreen.storyboard */,
 				3F6E490921BFAFB400BD5270 /* Info.plist */,
@@ -153,6 +152,23 @@
 				3F6E491F21BFAFB400BD5270 /* Info.plist */,
 			);
 			path = RxPracticeUITests;
+			sourceTree = "<group>";
+		};
+		3F6E492B21BFB1BD00BD5270 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E492C21BFB1C800BD5270 /* Numbers */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		3F6E492C21BFB1C800BD5270 /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E492D21BFB22200BD5270 /* NumberViewController.swift */,
+				3F6E493021BFB27900BD5270 /* Number.storyboard */,
+			);
+			path = Numbers;
 			sourceTree = "<group>";
 		};
 		82876378D1D08BAD6BF1783A /* Pods */ = {
@@ -277,8 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6E490821BFAFB400BD5270 /* LaunchScreen.storyboard in Resources */,
+				3F6E493121BFB27900BD5270 /* Number.storyboard in Resources */,
 				3F6E490521BFAFB400BD5270 /* Assets.xcassets in Resources */,
-				3F6E490021BFAFB300BD5270 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6E48FD21BFAFB300BD5270 /* ViewController.swift in Sources */,
+				3F6E492E21BFB22200BD5270 /* NumberViewController.swift in Sources */,
 				3F6E490321BFAFB300BD5270 /* RxPractice.xcdatamodeld in Sources */,
 				3F6E48FB21BFAFB300BD5270 /* AppDelegate.swift in Sources */,
 			);
@@ -420,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F6E48FE21BFAFB300BD5270 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F6E48FF21BFAFB300BD5270 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F6E490621BFAFB400BD5270 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
