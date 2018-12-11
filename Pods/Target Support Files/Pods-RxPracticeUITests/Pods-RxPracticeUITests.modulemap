@@ -1,0 +1,6 @@
+framework module Pods_RxPracticeUITests {
+  umbrella header "Pods-RxPracticeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
