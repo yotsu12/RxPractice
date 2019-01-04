@@ -20,6 +20,8 @@
 		3F6E493621BFBAAA00BD5270 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E493521BFBAAA00BD5270 /* SimpleValidationViewController.swift */; };
 		3F6E494221C0D60300BD5270 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E494121C0D60300BD5270 /* SimpleTableViewController.swift */; };
 		3F6E494421C0D60C00BD5270 /* SimpleTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E494321C0D60C00BD5270 /* SimpleTableView.storyboard */; };
+		3F82028321DF412D00B0D0CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82028221DF412D00B0D0CF /* ViewController.swift */; };
+		3F82028521DF422000B0D0CF /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F82028421DF422000B0D0CF /* ViewController.storyboard */; };
 		56DE229B6934F52C0ED50C2E /* Pods_RxPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FD34F89DE3DCC5983DC589 /* Pods_RxPractice.framework */; };
 		DA41255D52039B7DAF92AE83 /* Pods_RxPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F0AE084B9BE0950D94CBDE /* Pods_RxPracticeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,8 @@
 		3F6E493521BFBAAA00BD5270 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
 		3F6E494121C0D60300BD5270 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		3F6E494321C0D60C00BD5270 /* SimpleTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleTableView.storyboard; sourceTree = "<group>"; };
+		3F82028221DF412D00B0D0CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F82028421DF422000B0D0CF /* ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController.storyboard; sourceTree = "<group>"; };
 		64FD34F89DE3DCC5983DC589 /* Pods_RxPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F0AE084B9BE0950D94CBDE /* Pods_RxPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		828504106732FA721BCCF03A /* Pods_RxPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +169,7 @@
 		3F6E492B21BFB1BD00BD5270 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				3F82028121DF411400B0D0CF /* HelloWorld */,
 				3F6E494021C0D5EC00BD5270 /* SimpleTableView */,
 				3F6E493221BFB99800BD5270 /* SimpleValidation */,
 				3F6E492C21BFB1C800BD5270 /* Numbers */,
@@ -197,6 +202,15 @@
 				3F6E494321C0D60C00BD5270 /* SimpleTableView.storyboard */,
 			);
 			path = SimpleTableView;
+			sourceTree = "<group>";
+		};
+		3F82028121DF411400B0D0CF /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				3F82028221DF412D00B0D0CF /* ViewController.swift */,
+				3F82028421DF422000B0D0CF /* ViewController.storyboard */,
+			);
+			path = HelloWorld;
 			sourceTree = "<group>";
 		};
 		82876378D1D08BAD6BF1783A /* Pods */ = {
@@ -325,6 +339,7 @@
 				3F6E494421C0D60C00BD5270 /* SimpleTableView.storyboard in Resources */,
 				3F6E490521BFAFB400BD5270 /* Assets.xcassets in Resources */,
 				3F6E493421BFB9AA00BD5270 /* SimpleValidation.storyboard in Resources */,
+				3F82028521DF422000B0D0CF /* ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F82028321DF412D00B0D0CF /* ViewController.swift in Sources */,
 				3F6E492E21BFB22200BD5270 /* NumberViewController.swift in Sources */,
 				3F6E490321BFAFB300BD5270 /* RxPractice.xcdatamodeld in Sources */,
 				3F6E494221C0D60300BD5270 /* SimpleTableViewController.swift in Sources */,
